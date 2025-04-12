@@ -5,7 +5,7 @@ from skimage.measure import label, regionprops
 from skimage.morphology import binary_dilation
 from pathlib import Path
 
-out_path = Path("out")
+out_path = Path(Path(__file__).parent / "out")
 out_path.mkdir(exist_ok=True)
 
 def count_holes(region):
