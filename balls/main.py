@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import time
 import json
 import os
 import random
