@@ -41,7 +41,5 @@ while True:
     if is_my_image(frame):
         match_count += 1
 
-
-cap.release()
 print(f"Количество изображений: {match_count}")
 
